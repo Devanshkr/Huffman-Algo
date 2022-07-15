@@ -1,6 +1,14 @@
-# Huffman-Algo
+# Text file compressor web app
 
-Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters to acheive compression. The webapp takes only .txt file as an input and returns a compressed file having lower size. To decompress, upload the compressed file and submit it.
+Uses Huffman Coding for Text Compression
+Made with JAVASCRIPT , HTML and CSS
+
+About
+Performs Lossless compression and decompression of .txt files using Huffman Coding technique .
+Each character is assigned a unique variable length binary code, instead of its 8-bit representation, with more frequent characters having smaller codes. A Huffman Tree is created and stored to generate and decode these codes.
+Compression ratio usually improves as the file size increases.
+The website is made responsive (with HTML and CSS ) and interactive (with JavaScript ) .
+An Info page is added to give more information about Huffman coding.
 
 Data structure used: Heap/priority queue.
 Time complexity: O(NlogN)
